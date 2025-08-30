@@ -1,0 +1,37 @@
+<root total_time="9421">
+    <weapon keycount="1">
+        <key time="0" id="0" variation_num="1" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3010001" />
+    </action>
+    <state keycount="7">
+        <key time="0" state="26" substate="34" />
+        <key time="857" state="26" substate="34" />
+        <key time="1050" state="26" substate="34" />
+        <key time="1555" state="26" substate="34" />
+        <key time="563" state="26" substate="34" />
+        <key time="714" state="26" substate="34" />
+        <key time="2252" state="26" substate="34" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="0" />
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="2">
+        <key time="0" pos_x="-12768.000000" pos_y="2002.000000" pos_z="-9552.000000" dir_x="-0.716535" dir_z="0.692913" material="1" />
+        <key time="9421" pos_x="-12768.000000" pos_y="2002.000000" pos_z="-9552.000000" dir_x="-0.716535" dir_z="0.692913" material="1" />
+    </transform>
+    <aim keycount="2">
+        <key time="0" origin_x="-12672.000000" origin_y="2340.000000" origin_z="-9264.000000" point_x="-36096.000000" point_y="684.000000" point_z="-822.000000" />
+        <key time="9421" origin_x="-12672.000000" origin_y="2340.000000" origin_z="-9264.000000" point_x="-36096.000000" point_y="684.000000" point_z="-822.000000" />
+    </aim>
+</root>

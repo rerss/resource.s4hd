@@ -1,0 +1,17 @@
+-- Notify ID이벤트 메세지
+AN_SPAWN_AI			= 1;
+AN_END_SPAWN_AI		= 2;
+AN_START_SPAWN      = 3;
+NI_GUIDE_OFF			= 4;
+
+AN_GUIDE_ON_01				= 5;
+AN_GUIDE_ON_02				= 6;
+AN_GUIDE_ON_03				= 7;
+AN_GUIDE_ON_04				= 8;
+AN_GUIDE_ON_05				= 9;
+AN_GUIDE_ON_06				= 10;
+AN_GUIDE_ON_07				= 11;
+
+AN_REST_START				= 12;
+AN_REST_END					= 13;
+AN_PHASE_START				= 14;

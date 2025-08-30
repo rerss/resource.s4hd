@@ -1,0 +1,55 @@
+<root total_time="2210">
+    <weapon keycount="1">
+        <key time="0" id="2060002"  variation_num="1" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3070001" />
+    </action>
+    <state keycount="5">
+        <key time="0" state="5" substate="-1" />
+        <key time="187" state="6" substate="8" />
+        <key time="21" state="6" substate="0" />
+        <key time="1338" state="28" substate="131073" />
+        <key time="664" state="1" substate="-1" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="1">
+        <key time="1546" animparam="0" delay="300" move="true" />
+    </damagestate>
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="20">
+        <key time="0" pos_x="1320.000000" pos_y="2816.000000" pos_z="-7432.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="208" pos_x="1320.000000" pos_y="2816.000000" pos_z="-7432.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="105" pos_x="1368.000000" pos_y="2824.000000" pos_z="-7392.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="104" pos_x="1456.000000" pos_y="2832.000000" pos_z="-7312.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="105" pos_x="1546.000000" pos_y="2832.000000" pos_z="-7232.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="105" pos_x="1640.000000" pos_y="2832.000000" pos_z="-7152.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="108" pos_x="1730.000000" pos_y="2832.000000" pos_z="-7072.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="104" pos_x="1822.000000" pos_y="2832.000000" pos_z="-7000.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="108" pos_x="1914.000000" pos_y="2828.000000" pos_z="-6920.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="104" pos_x="2004.000000" pos_y="2828.000000" pos_z="-6840.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="105" pos_x="2092.000000" pos_y="2828.000000" pos_z="-6760.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="107" pos_x="2184.000000" pos_y="2836.000000" pos_z="-6680.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="109" pos_x="2276.000000" pos_y="2856.000000" pos_z="-6600.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="110" pos_x="2372.000000" pos_y="2876.000000" pos_z="-6520.000000" dir_x="0.755906" dir_z="0.653543" material="1" />
+        <key time="102" pos_x="2460.000000" pos_y="2896.000000" pos_z="-6448.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+        <key time="107" pos_x="2400.000000" pos_y="2844.000000" pos_z="-6928.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+        <key time="110" pos_x="2356.000000" pos_y="2848.000000" pos_z="-7240.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+        <key time="114" pos_x="2324.000000" pos_y="2852.000000" pos_z="-7456.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+        <key time="104" pos_x="2304.000000" pos_y="2856.000000" pos_z="-7592.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+        <key time="106" pos_x="2288.000000" pos_y="2860.000000" pos_z="-7696.000000" dir_x="0.141732" dir_z="0.992126" material="1" />
+    </transform>
+    <aim keycount="2">
+        <key time="0" origin_x="0.000000" origin_y="0.000000" origin_z="0.000000" point_x="0.000000" point_y="0.000000" point_z="0.000000" />
+        <key time="2125" origin_x="0.000000" origin_y="0.000000" origin_z="0.000000" point_x="0.000000" point_y="0.000000" point_z="0.000000" />
+    </aim>
+</root>

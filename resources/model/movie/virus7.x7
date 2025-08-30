@@ -1,0 +1,40 @@
+﻿<root total_time="9582">
+    <weapon keycount="1">
+        <key time="0" id="2060002"  variation_num="1" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3050001" />
+    </action>
+    <state keycount="5">
+        <key time="0" state="5" substate="-1" />
+        <key time="1398" state="39" substate="65545" />
+        <key time="19" state="39" substate="65536" />
+        <key time="7696" state="39" substate="196608" />
+        <key time="303" state="39" substate="262144" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="0" />
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <sentry keycount="0" />
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="4">
+        <key time="0" pos_x="4256.000000" pos_y="3120.000000" pos_z="-4144.000000" dir_x="-0.708661" dir_z="0.700787" material="1" />
+        <key time="1398" pos_x="4256.000000" pos_y="3120.000000" pos_z="-4144.000000" dir_x="-0.708661" dir_z="0.700787" material="1" />
+        <key time="104" pos_x="4256.000000" pos_y="3120.000000" pos_z="-4144.000000" dir_x="-0.362205" dir_z="0.929134" material="1" />
+        <key time="8080" pos_x="4256.000000" pos_y="3120.000000" pos_z="-4144.000000" dir_x="-0.362205" dir_z="0.929134" material="1" />
+    </transform>
+    <aim keycount="4">
+        <key time="0" origin_x="4280.000000" origin_y="3376.000000" origin_z="-3988.000000" point_x="4136.000000" point_y="3172.000000" point_z="-3840.000000" />
+        <key time="1298" origin_x="4280.000000" origin_y="3376.000000" origin_z="-3988.000000" point_x="4136.000000" point_y="3172.000000" point_z="-3840.000000" />
+        <key time="100" origin_x="4280.000000" origin_y="3372.000000" origin_z="-3988.000000" point_x="4136.000000" point_y="3168.000000" point_z="-3848.000000" />
+        <key time="8184" origin_x="4280.000000" origin_y="3372.000000" origin_z="-3988.000000" point_x="4136.000000" point_y="3168.000000" point_z="-3848.000000" />
+    </aim>
+</root>

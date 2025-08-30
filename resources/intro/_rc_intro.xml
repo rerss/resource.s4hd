@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<s4_intro>
+	<intro sound="resources/intro/neowiz.ogg" play_time="1500" frame_time="60" >
+		<frame textrue="resources/intro/NWCI_001.jpg" />
+		<frame textrue="resources/intro/NWCI_002.jpg" />
+		<frame textrue="resources/intro/NWCI_003.jpg" />
+		<frame textrue="resources/intro/NWCI_004.jpg" />
+		<frame textrue="resources/intro/NWCI_005.jpg" />
+		<frame textrue="resources/intro/NWCI_006.jpg" />
+		<frame textrue="resources/intro/NWCI_007.jpg" />
+		<frame textrue="resources/intro/NWCI_008.jpg" />
+		<frame textrue="resources/intro/NWCI_009.jpg" />
+		<frame textrue="resources/intro/NWCI_010.jpg" />
+		<frame textrue="resources/intro/NWCI_011.jpg" />
+		<frame textrue="resources/intro/NWCI_012.jpg" />
+		<frame textrue="resources/intro/NWCI_013.jpg" />
+		<frame textrue="resources/intro/NWCI_014.jpg" />
+	</intro>
+	<intro sound="" play_time="1500" frame_time="60" >
+		<frame textrue="resources/intro/game0.jpg" />
+		<frame textrue="resources/intro/game1.jpg" />
+		<frame textrue="resources/intro/game2.jpg" />
+		<frame textrue="resources/intro/game3.jpg" />
+		<frame textrue="resources/intro/game4.jpg" />
+		<frame textrue="resources/intro/game5.jpg" />
+		<frame textrue="resources/intro/game6.jpg" />
+		<frame textrue="resources/intro/game7.jpg" />
+		<frame textrue="resources/intro/game8.jpg" />
+		<frame textrue="resources/intro/game9.jpg" />
+		<frame textrue="resources/intro/game10.jpg" />
+		<frame textrue="resources/intro/game11.jpg" />
+		<frame textrue="resources/intro/game12.jpg" />
+		<frame textrue="resources/intro/game13.jpg" />
+		<frame textrue="resources/intro/game14.jpg" />
+		<frame textrue="resources/intro/game15.jpg" />
+		<frame textrue="resources/intro/game16.jpg" />
+		<frame textrue="resources/intro/game17.jpg" />
+		<frame textrue="resources/intro/game18.jpg" />
+		<frame textrue="resources/intro/game18.jpg" />
+		<frame textrue="resources/intro/game19.jpg" />
+		<frame textrue="resources/intro/game20.jpg" />
+		<frame textrue="resources/intro/game21.jpg" />
+		<frame textrue="resources/intro/game22.jpg" />
+		<frame textrue="resources/intro/game23.jpg" />
+		<frame textrue="resources/intro/game24.jpg" />
+		<frame textrue="resources/intro/game25.jpg" />
+		<frame textrue="resources/intro/game26.jpg" />
+		<frame textrue="resources/intro/game27.jpg" />
+		<frame textrue="resources/intro/game28.jpg" />
+	</intro>
+</s4_intro>

@@ -1,0 +1,36 @@
+<root total_time="4315">
+    <costume keycount="1">
+        <key time="0" sex="male" hair="851969" face="65793" coat="66049" pants="66305" gloves="66561" shoes="66817" accessary="0" />
+    </costume>
+    <weapon keycount="1">
+        <key time="0" id="2000001" variation_num="1" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3010001" />
+    </action>
+    <state keycount="3">
+        <key time="0" state="5" substate="-1" />
+        <key time="531" state="26" substate="31" />
+        <key time="3002" state="5" substate="-1" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="0" />
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="2">
+        <key time="0" pos_x="-13888.000000" pos_y="2160.000000" pos_z="-8272.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="4315" pos_x="-13888.000000" pos_y="2160.000000" pos_z="-8272.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+    </transform>
+    <aim keycount="2">
+        <key time="0" origin_x="-13872.000000" origin_y="2160.000000" origin_z="-8272.000000" point_x="-13520.000000" point_y="2224.000000" point_z="-7512.000000" />
+        <key time="4315" origin_x="-13872.000000" origin_y="2160.000000" origin_z="-8272.000000" point_x="-13520.000000" point_y="2224.000000" point_z="-7512.000000" />
+    </aim>
+</root>

@@ -1,0 +1,31 @@
+<root total_time="2497">
+    <weapon keycount="1">
+        <key time="0" id="0"  variation_num="1" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3020001" />
+    </action>
+    <state keycount="1">
+        <key time="0" state="26" substate="112" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="0" />
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="2">
+        <key time="0" pos_x="-19712.000000" pos_y="4376.000000" pos_z="17376.000000" dir_x="0.039370" dir_z="1.000000" material="1" />
+        <key time="2497" pos_x="-19712.000000" pos_y="4376.000000" pos_z="17376.000000" dir_x="0.039370" dir_z="1.000000" material="1" />
+    </transform>
+    <aim keycount="2">
+        <key time="0" origin_x="-20256.000000" origin_y="4496.000000" origin_z="15872.000000" point_x="-20096.000000" point_y="4336.000000" point_z="17344.000000" />
+        <key time="2497" origin_x="-20256.000000" origin_y="4496.000000" origin_z="15872.000000" point_x="-20096.000000" point_y="4336.000000" point_z="17344.000000" />
+    </aim>
+</root>

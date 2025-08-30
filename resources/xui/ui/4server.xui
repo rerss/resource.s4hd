@@ -1,0 +1,3024 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gui_root>
+  <script_files count="0" />
+  <gui>
+    <CGUI_Window name="Server_Window">
+      <gui_evnets />
+      <global left="0" top="0" right="1024" bottom="768" />
+      <local left="0" top="0" right="1024" bottom="768" />
+      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+      <opacity value="1.000000" />
+      <enable value="true" />
+      <intersect value="true" />
+      <show value="true" />
+      <lock_layer value="false" />
+      <selectable value="true" />
+      <back_color value="-1" />
+      <scene>
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+      </scene>
+      <tooltip>
+        <kor value="" />
+        <ger value="" />
+        <eng value="" />
+        <fre value="" />
+        <spa value="" />
+        <ita value="" />
+        <rus value="" />
+        <ame value="" />
+        <cns value="" />
+        <tha value="" />
+        <twn value="" />
+        <jap value="" />
+        <idn value="" />
+        <tur value="" />
+        <por value="" />
+      </tooltip>
+      <tooltip_time value="0" />
+      <child>
+        <CGUI_GroupBox name="Server_GroupBox">
+          <gui_evnets />
+          <global left="0" top="0" right="1024" bottom="768" />
+          <local left="0" top="0" right="1024" bottom="768" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="true" />
+          <intersect value="true" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+            <por value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <child>
+            <CGUI_Button name="Exit_Button">
+              <gui_evnets />
+              <global left="985" top="17" right="1014" bottom="36" />
+              <local left="985" top="17" right="1014" bottom="36" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="게임종료" />
+                <ger value="Schließen" />
+                <eng value="Exit" />
+                <fre value="Quitter" />
+                <spa value="Salir" />
+                <ita value="Esci" />
+                <rus value="Выход" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="ออก" />
+                <twn value="結束遊戲" />
+                <jap value="ゲーム終了" />
+                <idn value="Keluar" />
+                <tur value="Çıkış" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="main_navi.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.730469" top="0.410156" right="0.758789" bottom="0.484375">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_0>
+              <text_align value="0" />
+              <font_style value="0" />
+              <font value="2002_12" />
+              <color_0 base_color="4294967295" sub_color="4294967295" />
+              <text_margin x="0" y="13" />
+              <Ellipsis value="false" />
+              <TextAutoLine value="false" />
+              <string>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </string>
+              <gui_skin_1 texture="main_navi.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.730469" top="0.558594" right="0.758789" bottom="0.632813">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_1>
+              <gui_skin_2 texture="main_navi.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.730469" top="0.484375" right="0.758789" bottom="0.558594">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_2>
+              <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_3>
+              <color_1 base_color="4294967295" sub_color="4294967295" />
+              <color_2 base_color="4294967295" sub_color="4294967295" />
+              <color_3 base_color="4278190080" sub_color="4294967295" />
+              <sound mouse_up_sound="" mouse_enter_sound="" />
+            </CGUI_Button>
+            <CGUI_GroupBox name="Server_notice_GroupBox">
+              <gui_evnets />
+              <global left="9" top="162" right="341" bottom="605" />
+              <local left="9" top="162" right="341" bottom="605" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <child>
+                <CGUI_GroupBox name="ItemList_PageButton_GroupBox">
+                  <gui_evnets />
+                  <global left="139" top="570" right="222" bottom="598" />
+                  <local left="130" top="408" right="213" bottom="436" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <child>
+                    <CGUI_Label name="ItemList_Page_Label">
+                      <gui_evnets />
+                      <global left="157" top="574" right="207" bottom="594" />
+                      <local left="18" top="4" right="68" bottom="24" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="false" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                      <text_align value="0" />
+                      <font_style value="0" />
+                      <font value="2002_10" />
+                      <color_0 base_color="4294967295" sub_color="4294967295" />
+                      <text_margin x="0" y="0" />
+                      <Ellipsis value="false" />
+                      <TextAutoLine value="false" />
+                      <string>
+                        <kor value="2월 3일" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="2 / 3" />
+                        <jap value="2 / 3" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </string>
+                    </CGUI_Label>
+                    <CGUI_Button name="ItemList_Left_Button">
+                      <gui_evnets />
+                      <global left="139" top="570" right="160" bottom="601" />
+                      <local left="0" top="0" right="21" bottom="31" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="true" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <gui_skin_0 texture="shop.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.755859" top="0.225586" right="0.776367" bottom="0.255859" />
+                      <text_align value="0" />
+                      <font_style value="0" />
+                      <font value="" />
+                      <color_0 base_color="4278190080" sub_color="4294967295" />
+                      <text_margin x="0" y="0" />
+                      <Ellipsis value="false" />
+                      <TextAutoLine value="false" />
+                      <string>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </string>
+                      <gui_skin_1 texture="shop.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.804688" top="0.225586" right="0.825195" bottom="0.255859" />
+                      <gui_skin_2 texture="shop.dds" blend_type="2" flip_type="0" texture_filter="true" left="0.780273" top="0.225586" right="0.800781" bottom="0.255859" />
+                      <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                      <color_1 base_color="4278190080" sub_color="4294967295" />
+                      <color_2 base_color="4278190080" sub_color="4294967295" />
+                      <color_3 base_color="4278190080" sub_color="4294967295" />
+                      <sound mouse_up_sound="" mouse_enter_sound="" />
+                    </CGUI_Button>
+                    <CGUI_Button name="ItemList_Right_Button">
+                      <gui_evnets />
+                      <global left="201" top="570" right="222" bottom="601" />
+                      <local left="62" top="0" right="83" bottom="31" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="true" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <gui_skin_0 texture="shop.dds" blend_type="1" flip_type="1" texture_filter="true" left="0.755859" top="0.225586" right="0.776367" bottom="0.255859" />
+                      <text_align value="0" />
+                      <font_style value="0" />
+                      <font value="" />
+                      <color_0 base_color="4278190080" sub_color="4294967295" />
+                      <text_margin x="0" y="0" />
+                      <Ellipsis value="false" />
+                      <TextAutoLine value="false" />
+                      <string>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </string>
+                      <gui_skin_1 texture="shop.dds" blend_type="1" flip_type="1" texture_filter="true" left="0.804688" top="0.225586" right="0.825195" bottom="0.255859" />
+                      <gui_skin_2 texture="shop.dds" blend_type="2" flip_type="1" texture_filter="true" left="0.780273" top="0.225586" right="0.800781" bottom="0.255859" />
+                      <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                      <color_1 base_color="4278190080" sub_color="4294967295" />
+                      <color_2 base_color="4278190080" sub_color="4294967295" />
+                      <color_3 base_color="4278190080" sub_color="4294967295" />
+                      <sound mouse_up_sound="" mouse_enter_sound="" />
+                    </CGUI_Button>
+                  </child>
+                  <update value="true" />
+                  <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                </CGUI_GroupBox>
+                <CGUI_GroupBox name="notice_list_GroupBox">
+                  <gui_evnets />
+                  <global left="24" top="177" right="327" bottom="562" />
+                  <local left="15" top="15" right="318" bottom="400" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <child />
+                  <update value="true" />
+                  <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                </CGUI_GroupBox>
+                <CGUI_Image name="notice_Image">
+                  <gui_evnets />
+                  <global left="24" top="177" right="327" bottom="562" />
+                  <local left="15" top="15" right="318" bottom="400" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                </CGUI_Image>
+                <CGUI_Image name="notice_bg_Image">
+                  <gui_evnets />
+                  <global left="9" top="162" right="341" bottom="605" />
+                  <local left="0" top="0" right="332" bottom="443" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="false" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.001953" top="0.003906" right="0.664063" bottom="0.869141" />
+                </CGUI_Image>
+              </child>
+              <update value="true" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_0>
+            </CGUI_GroupBox>
+            <CGUI_GroupBox name="Server_List_GroupBox">
+              <gui_evnets />
+              <global left="350" top="162" right="1017" bottom="605" />
+              <local left="350" top="162" right="1017" bottom="605" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <child>
+                <CGUI_Button name="event_Button">
+                  <gui_evnets />
+                  <global left="440" top="566" right="522" bottom="603" />
+                  <local left="90" top="404" right="172" bottom="441" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.015625" right="0.857422" bottom="0.087891" />
+                  <text_align value="0" />
+                  <font_style value="0" />
+                  <font value="2002_10" />
+                  <color_0 base_color="4294967295" sub_color="4294967295" />
+                  <text_margin x="0" y="-3" />
+                  <Ellipsis value="false" />
+                  <TextAutoLine value="false" />
+                  <string>
+                    <kor value="이벤트" />
+                    <ger value="Event" />
+                    <eng value="Event" />
+                    <fre value="Event" />
+                    <spa value="Event" />
+                    <ita value="Event" />
+                    <rus value="Event" />
+                    <ame value="Event" />
+                    <cns value="Event" />
+                    <tha value="Event" />
+                    <twn value="活動" />
+                    <jap value="イベント" />
+                    <idn value="Event" />
+                    <tur value="Etkinlik" />
+                    <por value="" />
+                  </string>
+                  <gui_skin_1 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.191406" right="0.857422" bottom="0.263672" />
+                  <gui_skin_2 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.103516" right="0.857422" bottom="0.175781" />
+                  <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                  <color_1 base_color="4294967295" sub_color="4294967295" />
+                  <color_2 base_color="4294967295" sub_color="4294967295" />
+                  <color_3 base_color="4278190080" sub_color="4294967295" />
+                  <sound mouse_up_sound="" mouse_enter_sound="" />
+                </CGUI_Button>
+                <CGUI_Button name="Present_Button">
+                  <gui_evnets />
+                  <global left="358" top="566" right="440" bottom="603" />
+                  <local left="8" top="404" right="90" bottom="441" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.015625" right="0.857422" bottom="0.087891" />
+                  <text_align value="0" />
+                  <font_style value="0" />
+                  <font value="2002_10" />
+                  <color_0 base_color="4294967295" sub_color="4294967295" />
+                  <text_margin x="0" y="-3" />
+                  <Ellipsis value="false" />
+                  <TextAutoLine value="false" />
+                  <string>
+                    <kor value="등급보기" />
+                    <ger value="" />
+                    <eng value="View Rate" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="查看等級" />
+                    <jap value="評価確認" />
+                    <idn value="Lihat Tingkat" />
+                    <tur value="Sıralamayı Göster" />
+                    <por value="" />
+                  </string>
+                  <gui_skin_1 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.191406" right="0.857422" bottom="0.263672" />
+                  <gui_skin_2 texture="login_popup.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.103516" right="0.857422" bottom="0.175781" />
+                  <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                  <color_1 base_color="4294967295" sub_color="4294967295" />
+                  <color_2 base_color="4294967295" sub_color="4294967295" />
+                  <color_3 base_color="4278190080" sub_color="4294967295" />
+                  <sound mouse_up_sound="" mouse_enter_sound="" />
+                </CGUI_Button>
+                <CGUI_GroupBox name="server_list_GroupBox">
+                  <gui_evnets />
+                  <global left="350" top="162" right="1017" bottom="605" />
+                  <local left="0" top="0" right="667" bottom="443" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <child>
+                    <CGUI_GroupBox name="server_list_Title_GroupBox">
+                      <gui_evnets />
+                      <global left="362" top="177" right="987" bottom="209" />
+                      <local left="12" top="15" right="637" bottom="47" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="false" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <child>
+                        <CGUI_Label name="server_list_name_Label">
+                          <gui_evnets />
+                          <global left="362" top="177" right="762" bottom="209" />
+                          <local left="0" top="0" right="400" bottom="32" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <text_align value="0" />
+                          <font_style value="0" />
+                          <font value="2002_11" />
+                          <color_0 base_color="4294967295" sub_color="4294967295" />
+                          <text_margin x="0" y="0" />
+                          <Ellipsis value="false" />
+                          <TextAutoLine value="false" />
+                          <string>
+                            <kor value="서버" />
+                            <ger value="Server" />
+                            <eng value="Server" />
+                            <fre value="Serveur" />
+                            <spa value="Server" />
+                            <ita value="Server" />
+                            <rus value="Сервер" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="Server" />
+                            <twn value="伺服器" />
+                            <jap value="サーバー" />
+                            <idn value="Server" />
+                            <tur value="Sunucu" />
+                            <por value="" />
+                          </string>
+                        </CGUI_Label>
+                        <CGUI_Label name="AccessGraph_name_Label">
+                          <gui_evnets />
+                          <global left="777" top="177" right="945" bottom="209" />
+                          <local left="415" top="0" right="583" bottom="32" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <text_align value="0" />
+                          <font_style value="0" />
+                          <font value="2002_11" />
+                          <color_0 base_color="4294967295" sub_color="4294967295" />
+                          <text_margin x="0" y="0" />
+                          <Ellipsis value="false" />
+                          <TextAutoLine value="false" />
+                          <string>
+                            <kor value="접속인원" />
+                            <ger value="Eingeloggte User" />
+                            <eng value="Connected Users" />
+                            <fre value="Utilisateurs en ligne" />
+                            <spa value="Usuarios Conectados" />
+                            <ita value="Utenti connessi" />
+                            <rus value="Игроки" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="เชื่อมต่อกับผู้เล่น" />
+                            <twn value="連線人員" />
+                            <jap value="プレイヤー数" />
+                            <idn value="Jumlah Pemain" />
+                            <tur value="Bağlı Oyuncular" />
+                            <por value="" />
+                          </string>
+                        </CGUI_Label>
+                        <CGUI_Label name="Ping_name_Label">
+                          <gui_evnets />
+                          <global left="962" top="177" right="986" bottom="209" />
+                          <local left="600" top="0" right="624" bottom="32" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <text_align value="0" />
+                          <font_style value="0" />
+                          <font value="2002_11" />
+                          <color_0 base_color="4294967295" sub_color="4294967295" />
+                          <text_margin x="0" y="0" />
+                          <Ellipsis value="false" />
+                          <TextAutoLine value="false" />
+                          <string>
+                            <kor value="핑" />
+                            <ger value="Ping" />
+                            <eng value="Ping" />
+                            <fre value="Ping" />
+                            <spa value="Ping" />
+                            <ita value="Ping" />
+                            <rus value="Пинг" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="ค่า Ping" />
+                            <twn value="Ping" />
+                            <jap value="PING" />
+                            <idn value="Ping" />
+                            <tur value="Ping" />
+                            <por value="" />
+                          </string>
+                        </CGUI_Label>
+                      </child>
+                      <update value="true" />
+                      <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                    </CGUI_GroupBox>
+                    <CGUI_GroupBox name="server_listbox_GroupBox">
+                      <gui_evnets />
+                      <global left="364" top="208" right="1007" bottom="560" />
+                      <local left="14" top="46" right="657" bottom="398" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="true" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <child>
+                        <CGUI_ListBox name="server_list_ListBox">
+                          <gui_evnets />
+                          <global left="362" top="208" right="991" bottom="560" />
+                          <local left="-2" top="0" right="627" bottom="352" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <child />
+                          <update value="true" />
+                          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <gui_skin_1 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <gui_skin_2 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <connected_gui value="server_list_VScrollBar" />
+                          <direction value="true" />
+                          <lock_selected_item value="false" />
+                          <item_height value="32" />
+                          <multi_select value="false" />
+                          <color select_color="654311423" />
+                          <item_message_relay value="true" />
+                          <enable_mouse_rotate value="true" />
+                          <scroll_size value="1" />
+                        </CGUI_ListBox>
+                        <CGUI_VScrollBar name="server_list_VScrollBar">
+                          <gui_evnets />
+                          <global left="990" top="208" right="1007" bottom="558" />
+                          <local left="626" top="0" right="643" bottom="350" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.859375" top="0.626953" right="0.875977" bottom="0.720703" />
+                          <gui_skin_1 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.880859" top="0.548828" right="0.897461" bottom="0.591797" />
+                          <gui_skin_2 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.880859" top="0.650391" right="0.897461" bottom="0.693359" />
+                          <gui_skin_3 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.880859" top="0.599609" right="0.897461" bottom="0.642578" />
+                          <gui_skin_4 texture="lobby_roomlist.dds" blend_type="1" flip_type="2" texture_filter="true" left="0.880859" top="0.548828" right="0.897461" bottom="0.591797" />
+                          <gui_skin_5 texture="lobby_roomlist.dds" blend_type="1" flip_type="2" texture_filter="true" left="0.880859" top="0.650391" right="0.897461" bottom="0.693359" />
+                          <gui_skin_6 texture="lobby_roomlist.dds" blend_type="1" flip_type="2" texture_filter="true" left="0.880859" top="0.599609" right="0.897461" bottom="0.642578" />
+                          <gui_skin_7 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.902344" top="0.548828" right="0.918945" bottom="0.591797" />
+                          <gui_skin_8 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.902344" top="0.650391" right="0.918945" bottom="0.693359" />
+                          <gui_skin_9 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.902344" top="0.599609" right="0.918945" bottom="0.642578" />
+                          <connected_gui value="server_list_ListBox" />
+                          <direction value="true" />
+                          <enable_stick value="true" />
+                          <stick_size value="22" />
+                          <scroll_size value="1" />
+                          <button_ratio value="1.000000" />
+                          <range value="0" />
+                        </CGUI_VScrollBar>
+                      </child>
+                      <update value="true" />
+                      <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                    </CGUI_GroupBox>
+                    <CGUI_GroupBox name="QuickJoin_Button_GroupBox">
+                      <gui_evnets />
+                      <global left="783" top="566" right="894" bottom="606" />
+                      <local left="433" top="404" right="544" bottom="444" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="true" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <child>
+                        <CGUI_Image name="QuickJoin_Icon_Image">
+                          <gui_evnets />
+                          <global left="789" top="571" right="809" bottom="591" />
+                          <local left="6" top="5" right="26" bottom="25" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="false" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.732422" top="0.085938" right="0.751953" bottom="0.125000" />
+                        </CGUI_Image>
+                        <CGUI_Button name="QuickJoin_Button">
+                          <gui_evnets />
+                          <global left="783" top="566" right="894" bottom="606" />
+                          <local left="0" top="0" right="111" bottom="40" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.021484" right="0.991211" bottom="0.099609" />
+                          <text_align value="2" />
+                          <font_style value="0" />
+                          <font value="2002_10" />
+                          <color_0 base_color="4294955264" sub_color="4294955264" />
+                          <text_margin x="16" y="-5" />
+                          <Ellipsis value="false" />
+                          <TextAutoLine value="false" />
+                          <string>
+                            <kor value="바로입장" />
+                            <ger value="Betreten" />
+                            <eng value="Join Now" />
+                            <fre value="Rejoindre" />
+                            <spa value="Admisión" />
+                            <ita value="Entra ora" />
+                            <rus value="Войти" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="เชื่อมต่อ" />
+                            <twn value="直接進入" />
+                            <jap value="クイックスタート" />
+                            <idn value="Masuk" />
+                            <tur value="Hemen Katıl" />
+                            <por value="" />
+                          </string>
+                          <gui_skin_1 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.201172" right="0.991211" bottom="0.279297" />
+                          <gui_skin_2 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.111328" right="0.991211" bottom="0.189453" />
+                          <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <color_1 base_color="4294955264" sub_color="4294955264" />
+                          <color_2 base_color="4294955264" sub_color="4294955264" />
+                          <color_3 base_color="4278190080" sub_color="4294967295" />
+                          <sound mouse_up_sound="" mouse_enter_sound="" />
+                        </CGUI_Button>
+                      </child>
+                      <update value="true" />
+                      <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                    </CGUI_GroupBox>
+                    <CGUI_GroupBox name="Refresh_Button_GroupBox">
+                      <gui_evnets />
+                      <global left="895" top="566" right="1006" bottom="606" />
+                      <local left="545" top="404" right="656" bottom="444" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="true" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <child>
+                        <CGUI_Image name="Refresh_Icon_Image">
+                          <gui_evnets />
+                          <global left="901" top="571" right="922" bottom="591" />
+                          <local left="6" top="5" right="27" bottom="25" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="false" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.761719" top="0.085938" right="0.782227" bottom="0.125000" />
+                        </CGUI_Image>
+                        <CGUI_Button name="Refresh_Button">
+                          <gui_evnets />
+                          <global left="895" top="566" right="1006" bottom="606" />
+                          <local left="0" top="0" right="111" bottom="40" />
+                          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                          <opacity value="1.000000" />
+                          <enable value="true" />
+                          <intersect value="true" />
+                          <show value="true" />
+                          <lock_layer value="true" />
+                          <selectable value="true" />
+                          <back_color value="-1" />
+                          <scene>
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                            <scene_item loop="true" file="" />
+                          </scene>
+                          <tooltip>
+                            <kor value="" />
+                            <ger value="" />
+                            <eng value="" />
+                            <fre value="" />
+                            <spa value="" />
+                            <ita value="" />
+                            <rus value="" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="" />
+                            <twn value="" />
+                            <jap value="" />
+                            <idn value="" />
+                            <tur value="" />
+                            <por value="" />
+                          </tooltip>
+                          <tooltip_time value="0" />
+                          <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.021484" right="0.991211" bottom="0.099609" />
+                          <text_align value="2" />
+                          <font_style value="0" />
+                          <font value="2002_10" />
+                          <color_0 base_color="4294955264" sub_color="4294955264" />
+                          <text_margin x="16" y="-5" />
+                          <Ellipsis value="false" />
+                          <TextAutoLine value="false" />
+                          <string>
+                            <kor value="새로고침" />
+                            <ger value="Aktualisieren" />
+                            <eng value="Refresh" />
+                            <fre value="Rafraichir" />
+                            <spa value="Refrescar" />
+                            <ita value="Aggiorna" />
+                            <rus value="Обновить" />
+                            <ame value="" />
+                            <cns value="" />
+                            <tha value="อัพเดรทใหม่" />
+                            <twn value="重新整理" />
+                            <jap value="リスト更新" />
+                            <idn value="Refresh" />
+                            <tur value="Yenile" />
+                            <por value="" />
+                          </string>
+                          <gui_skin_1 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.201172" right="0.991211" bottom="0.279297" />
+                          <gui_skin_2 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.882813" top="0.111328" right="0.991211" bottom="0.189453" />
+                          <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                          <color_1 base_color="4294955264" sub_color="4294955264" />
+                          <color_2 base_color="4294955264" sub_color="4294955264" />
+                          <color_3 base_color="4278190080" sub_color="4294967295" />
+                          <sound mouse_up_sound="" mouse_enter_sound="" />
+                        </CGUI_Button>
+                      </child>
+                      <update value="true" />
+                      <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                    </CGUI_GroupBox>
+                    <CGUI_Image name="server_list_bg_Image">
+                      <gui_evnets />
+                      <global left="350" top="162" right="1017" bottom="605" />
+                      <local left="0" top="0" right="667" bottom="443" />
+                      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                      <opacity value="1.000000" />
+                      <enable value="true" />
+                      <intersect value="false" />
+                      <show value="true" />
+                      <lock_layer value="true" />
+                      <selectable value="true" />
+                      <back_color value="-1" />
+                      <scene>
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                        <scene_item loop="true" file="" />
+                      </scene>
+                      <tooltip>
+                        <kor value="" />
+                        <ger value="" />
+                        <eng value="" />
+                        <fre value="" />
+                        <spa value="" />
+                        <ita value="" />
+                        <rus value="" />
+                        <ame value="" />
+                        <cns value="" />
+                        <tha value="" />
+                        <twn value="" />
+                        <jap value="" />
+                        <idn value="" />
+                        <tur value="" />
+                        <por value="" />
+                      </tooltip>
+                      <tooltip_time value="0" />
+                      <gui_skin_0 texture="lobby_roomlist.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.004883" top="0.009766" right="0.656250" bottom="0.875000" />
+                    </CGUI_Image>
+                  </child>
+                  <update value="true" />
+                  <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                </CGUI_GroupBox>
+              </child>
+              <update value="true" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_0>
+            </CGUI_GroupBox>
+          </child>
+          <update value="true" />
+          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+            <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          </gui_skin_0>
+        </CGUI_GroupBox>
+        <CGUI_GroupBox name="server_list_item_GroupBox">
+          <gui_evnets />
+          <global left="362" top="612" right="1005" bottom="644" />
+          <local left="362" top="612" right="1005" bottom="644" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="true" />
+          <intersect value="true" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+            <por value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <child>
+            <CGUI_GroupBox name="server_Image_user_GroupBox">
+              <gui_evnets />
+              <global left="762" top="613" right="992" bottom="645" />
+              <local left="400" top="1" right="630" bottom="33" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="false" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <child>
+                <CGUI_Image name="server_Image1_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.001953" right="1.000000" bottom="0.041016" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image2_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.041016" right="1.000000" bottom="0.080078" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image3_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.080078" right="1.000000" bottom="0.119141" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image4_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.119141" right="1.000000" bottom="0.158203" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image5_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.158203" right="1.000000" bottom="0.197266" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image6_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.197266" right="1.000000" bottom="0.236328" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image7_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.236328" right="1.000000" bottom="0.275391" />
+                </CGUI_Image>
+                <CGUI_Image name="server_Image8_user_Image">
+                  <gui_evnets />
+                  <global left="777" top="618" right="945" bottom="638" />
+                  <local left="15" top="5" right="183" bottom="25" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.671875" top="0.275391" right="1.000000" bottom="0.314453" />
+                </CGUI_Image>
+              </child>
+              <update value="true" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            </CGUI_GroupBox>
+            <CGUI_Label name="server_list1_Label">
+              <gui_evnets />
+              <global left="362" top="612" right="762" bottom="644" />
+              <local left="0" top="0" right="400" bottom="32" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="false" />
+              <show value="false" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              <text_align value="0" />
+              <font_style value="0" />
+              <font value="2002_11" />
+              <color_0 base_color="4294967295" sub_color="4294967295" />
+              <text_margin x="0" y="0" />
+              <Ellipsis value="false" />
+              <TextAutoLine value="false" />
+              <string>
+                <kor value="서버 1" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="伺服器 1" />
+                <jap value="サーバー1" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </string>
+            </CGUI_Label>
+            <CGUI_TextViewer name="channel_list1_TextViewer">
+              <gui_evnets />
+              <global left="362" top="612" right="762" bottom="644" />
+              <local left="0" top="0" right="400" bottom="32" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="false" />
+              <show value="false" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              <connected_gui value="" />
+              <scroll_size value="10" />
+              <text_align value="False" />
+              <scissor_test value="false" />
+              <enable_mouse_scroll value="false" />
+              <string>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </string>
+            </CGUI_TextViewer>
+            <CGUI_GroupBox name="List1_Ping_GroupBox">
+              <gui_evnets />
+              <global left="962" top="617" right="986" bottom="637" />
+              <local left="600" top="5" right="624" bottom="25" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="false" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <child>
+                <CGUI_Image name="Ping_4_Image">
+                  <gui_evnets />
+                  <global left="962" top="617" right="986" bottom="637" />
+                  <local left="0" top="0" right="24" bottom="20" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.927734" top="0.347656" right="0.974609" bottom="0.386719" />
+                </CGUI_Image>
+                <CGUI_Image name="Ping_3_Image">
+                  <gui_evnets />
+                  <global left="962" top="617" right="986" bottom="637" />
+                  <local left="0" top="0" right="24" bottom="20" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="true" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.847656" top="0.347656" right="0.894531" bottom="0.386719" />
+                </CGUI_Image>
+                <CGUI_Image name="Ping_2_Image">
+                  <gui_evnets />
+                  <global left="962" top="617" right="986" bottom="637" />
+                  <local left="0" top="0" right="24" bottom="20" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.765625" top="0.347656" right="0.812500" bottom="0.386719" />
+                </CGUI_Image>
+                <CGUI_Image name="Ping_1_Image">
+                  <gui_evnets />
+                  <global left="962" top="617" right="986" bottom="637" />
+                  <local left="0" top="0" right="24" bottom="20" />
+                  <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+                  <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+                  <opacity value="1.000000" />
+                  <enable value="true" />
+                  <intersect value="true" />
+                  <show value="false" />
+                  <lock_layer value="true" />
+                  <selectable value="true" />
+                  <back_color value="-1" />
+                  <scene>
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                    <scene_item loop="true" file="" />
+                  </scene>
+                  <tooltip>
+                    <kor value="" />
+                    <ger value="" />
+                    <eng value="" />
+                    <fre value="" />
+                    <spa value="" />
+                    <ita value="" />
+                    <rus value="" />
+                    <ame value="" />
+                    <cns value="" />
+                    <tha value="" />
+                    <twn value="" />
+                    <jap value="" />
+                    <idn value="" />
+                    <tur value="" />
+                    <por value="" />
+                  </tooltip>
+                  <tooltip_time value="0" />
+                  <gui_skin_0 texture="server_notice.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.687500" top="0.347656" right="0.734375" bottom="0.386719" />
+                </CGUI_Image>
+              </child>
+              <update value="true" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            </CGUI_GroupBox>
+            <CGUI_Button name="server_list1_Button">
+              <gui_evnets />
+              <global left="362" top="612" right="1005" bottom="644" />
+              <local left="0" top="0" right="643" bottom="32" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              <text_align value="0" />
+              <font_style value="0" />
+              <font value="" />
+              <color_0 base_color="4278190080" sub_color="4294967295" />
+              <text_margin x="0" y="0" />
+              <Ellipsis value="false" />
+              <TextAutoLine value="false" />
+              <string>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </string>
+              <gui_skin_1 texture="lobby_roomlist.dds" blend_type="3" flip_type="0" texture_filter="true" left="0.016602" top="0.906250" right="0.645508" bottom="0.968750" />
+              <gui_skin_2 texture="lobby_roomlist.dds" blend_type="2" flip_type="0" texture_filter="true" left="0.016602" top="0.906250" right="0.645508" bottom="0.968750" />
+              <gui_skin_3 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              <color_1 base_color="4278190080" sub_color="4294967295" />
+              <color_2 base_color="4278190080" sub_color="4294967295" />
+              <color_3 base_color="4278190080" sub_color="4294967295" />
+              <sound mouse_up_sound="" mouse_enter_sound="" />
+            </CGUI_Button>
+            <CGUI_TextViewer name="server_list1_TextVwr">
+              <gui_evnets />
+              <global left="362" top="612" right="762" bottom="644" />
+              <local left="0" top="0" right="400" bottom="32" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              <connected_gui value="" />
+              <scroll_size value="10" />
+              <text_align value="CENTER" />
+              <scissor_test value="false" />
+              <enable_mouse_scroll value="false" />
+              <string>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </string>
+            </CGUI_TextViewer>
+          </child>
+          <update value="true" />
+          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+            <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          </gui_skin_0>
+        </CGUI_GroupBox>
+        <CGUI_GroupBox name="BG_GroupBox">
+          <gui_evnets />
+          <global left="0" top="0" right="1368" bottom="768" />
+          <local left="0" top="0" right="1368" bottom="768" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="true" />
+          <intersect value="false" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+            <por value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <child>
+            <CGUI_Image name="logo_Image">
+              <gui_evnets />
+              <global left="414" top="1" right="606" bottom="158" />
+              <local left="414" top="1" right="606" bottom="158" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="_rc_logo_back.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.697266" top="0.011719" right="0.983398" bottom="0.968750">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_0>
+            </CGUI_Image>
+            <CGUI_Image name="logolight_Image">
+              <gui_evnets />
+              <global left="472" top="226" right="502" bottom="256" />
+              <local left="472" top="226" right="502" bottom="256" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="false" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="D:\s4\bin\work\client\Resources\Model\Interface\cut_effect.scn" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+                <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+                <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+              </gui_skin_0>
+            </CGUI_Image>
+            <CGUI_Image name="Image_serverselect_back">
+              <gui_evnets />
+              <global left="162" top="0" right="862" bottom="170" />
+              <local left="162" top="0" right="862" bottom="170" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="false" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="_rc_logo_back.dds" blend_type="2" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="0.676758" bottom="0.992188" />
+            </CGUI_Image>
+            <CGUI_Image name="Left_Image">
+              <gui_evnets />
+              <global left="-170" top="0" right="0" bottom="768" />
+              <local left="-170" top="0" right="0" bottom="768" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="_rc_login_bg.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="0.124023" bottom="0.561523" />
+            </CGUI_Image>
+            <CGUI_Image name="Center_Image">
+              <gui_evnets />
+              <global left="0" top="0" right="1024" bottom="768" />
+              <local left="0" top="0" right="1024" bottom="768" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="_rc_login_bg.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.124023" top="0.000000" right="0.875977" bottom="0.561523" />
+            </CGUI_Image>
+            <CGUI_Image name="Right_Image">
+              <gui_evnets />
+              <global left="1024" top="0" right="1194" bottom="768" />
+              <local left="1024" top="0" right="1194" bottom="768" />
+              <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+              <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+              <opacity value="1.000000" />
+              <enable value="true" />
+              <intersect value="true" />
+              <show value="true" />
+              <lock_layer value="true" />
+              <selectable value="true" />
+              <back_color value="-1" />
+              <scene>
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+                <scene_item loop="true" file="" />
+              </scene>
+              <tooltip>
+                <kor value="" />
+                <ger value="" />
+                <eng value="" />
+                <fre value="" />
+                <spa value="" />
+                <ita value="" />
+                <rus value="" />
+                <ame value="" />
+                <cns value="" />
+                <tha value="" />
+                <twn value="" />
+                <jap value="" />
+                <idn value="" />
+                <tur value="" />
+                <por value="" />
+              </tooltip>
+              <tooltip_time value="0" />
+              <gui_skin_0 texture="_rc_login_bg.dds" blend_type="1" flip_type="0" texture_filter="true" left="0.875977" top="0.000000" right="1.000000" bottom="0.561523" />
+            </CGUI_Image>
+          </child>
+          <update value="true" />
+          <gui_skin_0 texture="" blend_type="3" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000">
+            <gui_skin service="eu" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="th" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="tw" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+            <gui_skin service="sa" texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          </gui_skin_0>
+        </CGUI_GroupBox>
+      </child>
+      <update value="true" />
+      <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+      <gui_skin_1 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+      <window_style value="1" />
+      <border_size value="20" />
+    </CGUI_Window>
+  </gui>
+</gui_root>

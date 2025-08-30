@@ -1,0 +1,233 @@
+
+[스크립트 파일 구조]
+
++-ActorStates_Common.Lua		( ActorState 설정 )
+  |
+  +-ActorStates_Constants.Lua		( ACtorState 설정에 필요한 상수값 정의 )
+  |
+  +-ActorStates_ActorState.Lua		( ActorState 설정 )
+    |
+    +-ActorStates_UseWeaponState.Lua	( 무기에 따라 다른 설정이 필요한 ActorState 설정 )
+
++-Movie.lua				( 입장 무비, 리스폰 무비 )
+
+
+[Global]
+GetActorState( 스테이트인덱스 )
+		- ActorState를 얻어온다.
+		- 예) local actorState = ActorStateGroup:GetActorState( STATE_DASH );
+
+
+GetAttackAttrib( 공격속성인덱스 )
+		- AttackAttrib을 얻어온다.
+		- 예) local attackAttrib = AttackAttribIndexer:GetAttackAttrib( ATTACKATTRIB_PLASMA_SWORD_NORMAL );
+
+
+[ActorState]
+EnableCameraShake( 플레이중인 캐릭터일 경우만 적용할지여부, 강제로 흔들지 여부, 생성시간 )
+SetCameraShakeFactor1( 흔들 시간, 복귀시간, 흔들릴 넓이 )
+SetCameraShakeFactor2( 상하속도, 좌우속도, 최소거리, 최대거리 )
+-위의 세함수를 모두 호출해줘야 함.
+
+AddSequence( 스테이트가 바뀔때 지울지 여부, 시퀀스파일, 사운드파일, 생성시간, 사운드제한거리 )
+		- ActorState에 시퀀스를 추가한다.
+		- 0 - 지우지 않음, 1 - 지움
+		- 예) actorState:AddSequence( 1, "Resources/Effects/state_dash.seq",
+			 "Resources/Sound/state_dash.wav", 300 );
+		- 사운드 제한거리
+			 
+AddSound( 사운드파일, 사운드를 붙일 노드 이름. 생성시간, 사운드제한거리 )
+		- ActorState에 사운드를 추가한다.
+		- 생성시간이 동일할 때 랜덤하게 출력됨.
+		- 사운드 제한거리
+		
+AddGhostTrail( 고스트레일노드, 생성시간, 소멸시간 )
+		- ActorState에 고스트레일을 추가한다.
+		- 예) state:AddGhostTrail( "GhostTrail_sword_01", 100, 400 );
+
+GetAnimParam( 인덱스 )
+		- ActorState에서 AnimParam을 얻어온다.
+		- 예) state:GetAnimParam( 0 );
+
+GetCustomAnimBlender( 인덱스 )
+		- ActorState에서 CustomAnimBlender( 상체 애니메이션 정보 )를 얻어온다.
+		- 예) state:GetCustomAnimBlender( 0 );
+
+GetLowerPartStateSet( 인덱스 )
+		- ActorState에서 state:GetLowerPartStateSet( 하체 애니메이션 정보 )를 얻어온다.
+		- 예) state:GetLowerPartStateSet( 0 );
+
+
+[CustomAnimBlender]	( 상체 애니메이션 정보 )
+GetWalkUpperAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 걷기 상태일 때 AnimParam을 얻어온다. ( 중-상 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+GetWalkLowerAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 걷기 상태일 때 AnimParam을 얻어온다. ( 중-하 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+GetJumpUpperAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 점프 상태일 때 AnimParam을 얻어온다. ( 중-상 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+GetJumpLowerAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 점프 상태일 때 AnimParam을 얻어온다. ( 중-하 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+GetFlyUpperAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 날기 상태일 때 AnimParam을 얻어온다. ( 중-상 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+GetFlyLowerAnimParam( 하체 상태 )
+		- CustomAnimBlender에서 하체가 날기 상태일 때 AnimParam을 얻어온다. ( 중-하 )
+		- 예) customAnimBlender:GetWalkLowerAnimParam( LOWER_ANIM_BACK );
+
+
+[LowerPartStateSet]	( 하체 애니메이션 정보 )
+GetWalkAnimParam( 하체 상태 )
+		- LowerPartStateSet에서 걷기 상태일 때 AnimParam을 얻어온다.
+		- 예) lowerPartStateSet:GetWalkAnimParam( LOWER_ANIM_BACK );
+
+[AnimParam]		( 애니메이션 정보 )
+SetAnim( 애니메이션 이름, 기본 블렌딩 시간, BLENDREPEAT 여부, LOOP 여부, 애니메이션 속도, RESET 여부 );
+		- AnimParam에 애니메이션 정보를 변경한다.
+		- 예) animParam:SetAnim( "00065", 1000, BLENDREPEAT_FALSE, LOOP_TRUE, 1.0, RESET_FALSE );
+
+SetBlendingAnim( 애니메이션 이름, 부 애니메이션 이름, 기본 블렌딩 시간, BLENDREPEAT 여부, LOOP 여부, 애니메이션 속도, RESET 여부 );
+		- AnimParam에 애니메이션 정보를 변경한다.
+		- 예) animParam:SetBlendingAnim( "E0006", "E0005", 500, BLENDREPEAT_TRUE, LOOP_FALSE, 1.0, RESET_TRUE );
+
+
+[AttackAttrib]
+SetDamageColor( 시간, r, g, b )	0.0 ~ 1.0	시간 1이 일초 0.5가 0.5초
+SetAttackSequence( 시퀀스파일, 사운드파일 )
+		- 공격 시퀀스를 설정한다.
+		- 이 함수를 재호출시 변경이 되지 않고 추가된다.
+		- 예) SetAttackSequence( "Resources/Effects/sword_s.seq", "Resources/Sound/sword_s.wav" );
+
+SetDamageSequence( 시퀀스파일(플레이어), 시쿼스파일(배경), 사운드파일( 플레이어 ), 사운드파일( 배경 ) )
+		- 피격 시퀀스를 설정한다.
+		- 이 함수를 재호출시 변경이 되지 않고 추가된다.
+		- 예) SetDamageSequence( "Resources/Effects/gun_hit.seq", "Resources/Effects/gun_hit.seq", "Resources/Sound/gun_hit.wav", "Resources/Sound/gun_hit.wav" );
+
+SetGunBlastSequence( 시퀀스파일1, 시퀀스파일2, 사운드파일, 시퀀스가 붙여질 노드이름 )
+		- GunBlast류의 공격 시퀀스를 설정한다.
+		- 시퀀스파일1, 시퀀스파일2는 랜덤하게 설정됨
+		- 이 함수를 재호출시 변경이 되지 않고 추가된다.
+		- 예) SetGunBlastSequence( "Resources/Effects/gun_blast1_1.seq", 
+			"Resources/Effects/gun_blast1_2.seq", "Resources/Sound/gun_blast1.wav", 
+			"L_Gun_Fire_Dummy" );
+
+SetGunTracerAttachNode( 총의 궤적이 붙여질 노드이름 )
+		- 총의 궤적이 붙여질 노드이름을 설정한다.
+		- 이 함수 호출이 없을시 총의 궤적을 그리지 않음.
+		- 예) SetGunTracerAttachNode( "L_Gun_Fire_Dummy" );
+		
+
+[Movie]
+Init( 플레이시간 )
+//플레이 시간
+
+SetID( sequencer, id )
+//Sequencer에 아이디를 설정한다( u64 )
+
+AddMovieScene( 무비용씬파일, 무비애니메이션반복여부 )
+//무비정보가 들어있는 씬파일을 등록한다.
+
+AddSpecialEffect( 시작시간, 종료시간, 타입 )
+//특수효과 1 - blur, 2 - fadein, 3 - fadeout, 4 - fillcolor
+	SetSpecialEffectparam( sequencer, r, g, b ) 기본 0, 0, 0
+	//아이디가 2, 3, 4일때 색을 지정한다.
+
+AddCamerShake( 시작시간, 종료시간, 복귀시간, 진동넓이, 상하이동속도, 좌우이동속도 )
+//카메라 쉐이크
+
+AddWayPointCamera( 시작시간, 종료시간, fov )
+//웨이포인트를 이용한 카메라 트랜스폼
+	SetWayPointCameraParam( sequencer, posX, posY, posZ, dirX, dirY, dirZ )
+	//포지션과 방향을 추가한다
+
+
+AddTMController_Camera( 시작시간, 종료시간, fov, 노드이름 )
+//카메라 트랜스폼 애니메이션
+
+AddTMController_Actor( 시작시간, 종료시간, 액터, 노드이름 )
+//액터 트랜스폼 애니메이션
+
+AddAnimController_Actor( 시작시간, 액터, 상체애니, 하체애니, 블렌드타임, 이전애니메이션을 루프시킬지 여부, 루프여부, 애니메이션 스피드( 정상스피드( 1.0 ))  )
+//액터 트랜스폼 애니메이션
+
+AddAnimController_Scene( 시작시간, sequencer, 애니, 블렌드타임, 이전애니메이션을 루프시킬지 여부, 루프여부, 애니메이션 스피드( 정상스피드( 1.0 ))  )
+//씬 트랜스폼 애니메이션( AddSceneLoader, AddSequence3D_Actor )로 생성한 시퀀서를 넣어준다.
+
+AddSound( 시작시간, 종료시간, 사운드파일, 반복여부, 볼륨 크기 )
+//사운드플레이어. 볼륨 크기 범위 0 ~ 100
+
+AddSound3D( 시작시간, 종료시간, 사운드파일, 반복여부, 노드에붙일지여부, 노드이름, 볼륨 크기 )
+//3d사운드플레이어
+
+AddSound3D_Actor( 시작시간, 종료시간, 사운드파일, 반복여부, 노드에붙일지여부, 액터, 노드이름, 볼륨 크기 )
+//3d사운드플레이어 
+
+AddSound3D_Scene( 시작시간, 종료시간, 사운드파일, 반복여부, 노드에붙일지여부, sequencer, 노드이름, 볼륨 크기 )
+//AddSceneLoader, AddSequence3D_Actor로 생성한 시퀀서를 넣어준다.
+
+AddBGM( 시작시간, 종료시간, 사운드파일, 반복여부, 볼륨 크기 )
+//AddSound와는 다르게 반복하지 않아도 종료시간은 넣어줘야 함
+
+AddSequence( 시작시간, 종료시간, 시퀀스파일 )
+//인터페이스시퀀스플레이어 종료시간 꼭 넣어줘야 함
+
+AddSequence3D( 시작시간, 종료시간, 시퀀스파일, 노드에붙일지여부, 노드이름 )
+//3d시퀀스플레이어 종료시간 꼭 넣어줘야 함
+
+AddSequence3D_Actor( 시작시간, 종료시간, 시퀀스파일, 노드에붙일지여부, 액터, 노드이름 )
+//3d시퀀스플레이어 종료시간 꼭 넣어줘야 함
+
+AddSequence3D_Scene( 시작시간, 종료시간, 시퀀스파일, 노드에붙일지여부, sequencer, 노드이름 )
+//AddSceneLoader, AddSequence3D_Actor로 생성한 시퀀서를 넣어준다.
+
+AddSceneLoader( 시작시간, 종료시간, 씬파일, 노드에붙일지여부, 노드이름 )
+//맵에 특정 씬을 붙인다.
+
+AddSceneLoader_Actor( 시작시간, 종료시간, 씬파일, 액터, 노드이름 )
+//무비용 액터에 붙일 씬을 불러온다
+
+AddTextViewer( 시작시간, 종료시간, 페이드인시간, 페이드아웃시간, 텍스트 )
+//텍스트를 출력한다.
+	SetTextViewerParam( sequencer, x축정렬, y축정렬, x축오프셋, y축오프셋 )
+	//x축정렬 0 - center, 1 - left, 2 - right
+	//y축정렬 0 - center, 1 - top, 2 - bottom
+
+AddImageViewer( 시작시간, 종료시간, 페이드인시간, 페이드아웃시간, 이미지파일 )
+//텍스트를 출력한다.
+	SetImageViewerParam( sequencer, x축정렬, y축정렬, x축오프셋, y축오프셋, 넓이, 높이 )
+	//x축정렬 0 - center, 1 - left, 2 - right
+	//y축정렬 0 - center, 1 - top, 2 - bottom
+
+AddActorPlayer1( 시작시간, 종료시간, 입력액터, 리플레이파일 );
+//리플레이용캐릭터를 입력받은액터와 같게 생성한다
+
+AddActorPlayer2( 시작시간, 종료시간, 성별, 팀, 기본복장으로할지 여부, 리플레이파일 );
+//리플레이용캐릭터를 추가한다
+	SetActorPlayerParam( sequencer, 머리, 얼굴, 상의, 하의, 손, 발, 악세사리 );
+	//복장아이템의 아이디를 설정한다.
+	SetActorPlayerParam2( sequencer, 머리, 얼굴, 상의, 하의, 손, 발, 악세사리 );
+	//복장아이템을 해당 파츠의 number로 설정한다.( 필요없는 파츠일 경우는 0을 넣어준다. )
+
+AddActorPlayerEx1( 성별, 팀 );
+AddActorPlayerEx2( 입력액터, 팀 );
+//리플레이용캐릭터를 추가한다.( 동일한 액터를 사용하는 리플레이파일을 여러개 등록한다 )
+	SetActorPlayerExParam( sequencer, 시작시간, 종료시간, 리플레이파일 );
+	//리플레이파일을 등록한다. 시간이 겹치면 안되고 순서대로 등록해야 한다.
+	SetActorPlayerExParam1( sequencer, 머리, 얼굴, 상의, 하의, 손, 발, 악세사리 );
+	//복장아이템의 아이디를 설정한다.
+	SetActorPlayerExParam2( sequencer, 머리, 얼굴, 상의, 하의, 손, 발, 악세사리 );
+	//복장아이템을 해당 파츠의 number로 설정한다.( 필요없는 파츠일 경우는 0을 넣어준다. )	
+
+AddMovieSpeed( 시자시간, 종료시간, 속도 )
+//해당시간동안의 무비속도를 조절한다 기본속도( 1.0 )
+
+GetFocusPC()
+//포커스플레이어를 얻어온다

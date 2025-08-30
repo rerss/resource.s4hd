@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gui_root>
+  <script_files count="0" />
+  <gui>
+    <CGUI_Window name="GameMessage_Window">
+      <gui_evnets />
+      <global left="0" top="0" right="1024" bottom="768" />
+      <local left="0" top="0" right="1024" bottom="768" />
+      <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+      <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+      <opacity value="1.000000" />
+      <enable value="false" />
+      <intersect value="false" />
+      <show value="true" />
+      <lock_layer value="false" />
+      <selectable value="true" />
+      <back_color value="-1" />
+      <scene>
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+        <scene_item loop="true" file="" />
+      </scene>
+      <tooltip>
+        <kor value="" />
+        <ger value="" />
+        <eng value="" />
+        <fre value="" />
+        <spa value="" />
+        <ita value="" />
+        <rus value="" />
+        <ame value="" />
+        <cns value="" />
+        <tha value="" />
+        <twn value="" />
+        <jap value="" />
+        <idn value="" />
+        <tur value="" />
+      </tooltip>
+      <tooltip_time value="0" />
+      <child>
+        <CGUI_TextViewer name="shutdown_TextViewer">
+          <gui_evnets />
+          <global left="50" top="150" right="950" bottom="350" />
+          <local left="50" top="150" right="950" bottom="350" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="true" />
+          <intersect value="true" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          <connected_gui value="" />
+          <scroll_size value="10" />
+          <text_align value="true" />
+          <scissor_test value="false" />
+          <enable_mouse_scroll value="false" />
+          <string>
+            <kor value="{W}{F-2002_20}{A-C}{CS-0,0,0,255}{CB-255,255,0,255}ㅣㄴ이러니얼니ㅓㄹㄴㅇㄹ닝러ㅣㄴ어리널ㄴ이라ㅓ니ㅏ러ㅣ나러ㅣ나ㅓ리나ㅓ리ㅏ너리ㅓ니러니라ㅓ니러ㅣㄴ어리ㅏ너리나ㅓ리너리ㅏ너리ㅏ너리ㅓㄴㅇ" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+          </string>
+        </CGUI_TextViewer>
+        <CGUI_Label name="message1_Label">
+          <gui_evnets />
+          <global left="0" top="180" right="1024" bottom="200" />
+          <local left="0" top="180" right="1024" bottom="200" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="false" />
+          <intersect value="false" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          <text_align value="0" />
+          <font_style value="2" />
+          <font value="2002_20" />
+          <color_0 base_color="4294967040" sub_color="4278190080" />
+          <text_margin x="0" y="0" />
+          <Ellipsis value="false" />
+          <string>
+            <kor value="이벤트 메시지 위치1" />
+            <ger value="Du hast den Ball! Lande einen Touch Down im Goal Post der Gegner!" />
+            <eng value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <fre value="Tu as la balle. Fais un Touch Down dans le but des adversaires !" />
+            <spa value="Tienes el balón. Haz un touchdown en la meta del oponente!" />
+            <ita value="Hai la palla. Fai Touchdown alla meta avversaria!" />
+            <rus value="Вы поймали мяч. Забейте гол в ворота соперников!" />
+            <ame value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <cns value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <tha value="ท่านครอบครองลูกบอลอยู่ ต้องเอาไปวางที่เป้าหมายฝั่งศัตรูให้ได้!" />
+            <twn value="" />
+            <jap value="イベントメッセージ1" />
+            <idn value="Kamu mendapatkan bola. Buat Touchdown pada gawang lawan kamu!" />
+            <tur value="Top sende. Rakibin kalesine bir gol at!" />
+          </string>
+        </CGUI_Label>
+        <CGUI_Label name="message2_Label">
+          <gui_evnets />
+          <global left="0" top="210" right="1024" bottom="230" />
+          <local left="0" top="210" right="1024" bottom="230" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="false" />
+          <intersect value="false" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          <text_align value="0" />
+          <font_style value="2" />
+          <font value="2002_20" />
+          <color_0 base_color="4294967040" sub_color="4278190080" />
+          <text_margin x="0" y="0" />
+          <Ellipsis value="false" />
+          <string>
+            <kor value="이벤트 메시지 위치2" />
+            <ger value="Du hast den Ball! Lande einen Touch Down im Goal Post der Gegner!" />
+            <eng value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <fre value="Tu as la balle. Fais un Touch Down dans le but des adversaires !" />
+            <spa value="Tienes el balón. Haz un touchdown en la meta del oponente!" />
+            <ita value="Hai la palla. Fai Touchdown alla meta avversaria!" />
+            <rus value="Вы поймали мяч. Забейте гол в ворота соперников!" />
+            <ame value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <cns value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <tha value="ท่านครอบครองลูกบอลอยู่ ต้องเอาไปวางที่เป้าหมายฝั่งศัตรูให้ได้!" />
+            <twn value="" />
+            <jap value="イベントメッセージ2" />
+            <idn value="Kamu mendapatkan bola. Buat Touchdown pada gawang lawan kamu!" />
+            <tur value="Top sende. Rakibin kalesine bir gol at!" />
+          </string>
+        </CGUI_Label>
+        <CGUI_Label name="message3_Label">
+          <gui_evnets />
+          <global left="0" top="240" right="1024" bottom="260" />
+          <local left="0" top="240" right="1024" bottom="260" />
+          <anchor_b value_1="false" value_2="false" value_3="false" value_4="false" />
+          <anchor_i value_1="0" value_2="0" value_3="0" value_4="0" />
+          <opacity value="1.000000" />
+          <enable value="false" />
+          <intersect value="false" />
+          <show value="true" />
+          <lock_layer value="true" />
+          <selectable value="true" />
+          <back_color value="-1" />
+          <scene>
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+            <scene_item loop="true" file="" />
+          </scene>
+          <tooltip>
+            <kor value="" />
+            <ger value="" />
+            <eng value="" />
+            <fre value="" />
+            <spa value="" />
+            <ita value="" />
+            <rus value="" />
+            <ame value="" />
+            <cns value="" />
+            <tha value="" />
+            <twn value="" />
+            <jap value="" />
+            <idn value="" />
+            <tur value="" />
+          </tooltip>
+          <tooltip_time value="0" />
+          <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+          <text_align value="0" />
+          <font_style value="2" />
+          <font value="2002_20" />
+          <color_0 base_color="4294967040" sub_color="4278190080" />
+          <text_margin x="0" y="0" />
+          <Ellipsis value="false" />
+          <string>
+            <kor value="이벤트 메시지 위치3" />
+            <ger value="Du hast den Ball! Lande einen Touch Down im Goal Post der Gegner!" />
+            <eng value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <fre value="Tu as la balle. Fais un Touch Down dans le but des adversaires !" />
+            <spa value="Tienes el balón. Haz un touchdown en la meta del oponente!" />
+            <ita value="Hai la palla. Fai Touchdown alla meta avversaria!" />
+            <rus value="Вы поймали мяч. Забейте гол в ворота соперников!" />
+            <ame value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <cns value="You got the ball. Make a touch down at the opponent's goal post!" />
+            <tha value="ท่านครอบครองลูกบอลอยู่ ต้องเอาไปวางที่เป้าหมายฝั่งศัตรูให้ได้!" />
+            <twn value="" />
+            <jap value="イベントメッセージ3" />
+            <idn value="Kamu mendapatkan bola. Buat Touchdown pada gawang lawan kamu!" />
+            <tur value="Top sende. Rakibin kalesine bir gol at!" />
+          </string>
+        </CGUI_Label>
+      </child>
+      <update value="true" />
+      <gui_skin_0 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+      <gui_skin_1 texture="" blend_type="0" flip_type="0" texture_filter="true" left="0.000000" top="0.000000" right="1.000000" bottom="1.000000" />
+      <window_style value="1" />
+      <border_size value="20" />
+    </CGUI_Window>
+  </gui>
+</gui_root>

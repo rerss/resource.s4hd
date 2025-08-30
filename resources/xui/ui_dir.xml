@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui_dir>
+	<image>
+		<dir src="Resources/XUI/image/common/"/>
+		<dir src="Resources/XUI/image/common/tga/"/>
+		<dir src="Resources/XUI/image/inGame/"/>
+		<dir src="Resources/XUI/image/inGame/tga"/>
+		<dir src="Resources/XUI/image/Title/"/>
+		<dir src="Resources/XUI/image/Makecharacter/"/>
+		<dir src="Resources/XUI/image/Lobby/"/>
+		<dir src="Resources/XUI/image/Lobby/tga/"/>
+		<dir src="Resources/XUI/image/Lobby/tga/Map_select/"/>
+		<dir src="Resources/XUI/Image/Lobby/Map_select/"/>
+		<dir src="Resources/XUI/image/Lobby/tga/Mode_select/"/>
+		<dir src="Resources/XUI/image/Lobby/Mode_select/"/>
+		<dir src="Resources/XUI/image/Lobby/Ingame_Loading/"/>
+		<dir src="Resources/XUI/image/Lobby/tga/Ingame_Loading/"/>
+		<dir src="Resources/Image/Itemtooltip/tga/"/>
+		<dir src="Resources/Image/Itemtooltip/"/>
+		<dir src="Resources/Image/Weapon/"/>
+		<dir src="Resources/GUI/New/"/>
+                <dir src="Resources/Image/Action/"/>
+	</image>
+	<script>
+		<dir src="Resources/XUI/Script/inGame/"/>
+		<dir src="Resources/XUI/Script/Lobby/"/>
+		<dir src="Resources/XUI/Script/Title/"/>
+	</script>
+</ui_dir>

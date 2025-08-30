@@ -1,0 +1,31 @@
+<trigger_system name="AnchoringLicense">
+	<!-- subject -->
+	<subject name="TestStep01">
+		<observer name="ActorSpawn" type="SpawnHelper">
+			<link type="in" name="NotifyID" />
+			<link type="out" name="CastNotifyID" />
+			<link type="out" name="SpawnedNotifyID" />
+			<link type="out" name="CountHelperMgrTriggerID" />
+			<property>
+				<u32 name="SpawnTime" value="0" />
+				<u32 name="SpawnType" value="0" />
+				<string name="SpawnName" value="trg_spawn_point_01" />
+				<bool name="EnableRespawn" value="true" />		
+			</property>
+		</observer>
+		<observer name="GateOpen" type="CollisionChecker">
+			<link type="out" name="NotifyID" />
+			<property>
+				<string name="PointName" value="trg_arrive_01" />
+				<bool name="Repeat" value="false" />
+			</property>
+		</observer>
+		<observer name="Congraturation" type="TutorialComplete">
+			<link type="in" name="NotifyID" />
+		</observer>
+		<event name="CONGRATULATION">
+			<link dest="GateOpen" dest_link="NotifyID" />
+			<link dest="Congraturation" dest_link="NotifyID" />
+		</event>
+	</subject>
+</trigger_system>

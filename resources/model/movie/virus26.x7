@@ -1,0 +1,92 @@
+<root total_time="6769">
+    <weapon keycount="1">
+        <key time="0" id="2000002"  variation_num="2" />
+    </weapon>
+    <action keycount="1">
+        <key time="0" id="3010001" />
+    </action>
+    <state keycount="3">
+        <key time="0" state="5" substate="-1" />
+        <key time="167" state="6" substate="8" />
+        <key time="17" state="6" substate="0" />
+    </state>
+    <flystate keycount="1">
+        <key time="0" state="0" substate="-1" />
+    </flystate>
+    <damagestate keycount="0" />
+    <skill keycount="1">
+        <key time="0" stealth="false" shield="false" berserk="false" bind="false" />
+    </skill>
+    <obstruction keycount="0" />
+    <grenade keycount="0" />
+    <sentry keycount="0" />       
+    <attackattrib keycount="0" />
+    <guntracer keycount="0" />
+    <partialanim keycount="0" />
+    <transform keycount="60">
+        <key time="0" pos_x="4200.000000" pos_y="-1588.000000" pos_z="-11776.000000" dir_x="0.677165" dir_z="0.732283" material="1" />
+        <key time="200" pos_x="4200.000000" pos_y="-1588.000000" pos_z="-11776.000000" dir_x="0.677165" dir_z="0.732283" material="1" />
+        <key time="114" pos_x="4256.000000" pos_y="-1588.000000" pos_z="-11712.000000" dir_x="0.677165" dir_z="0.732283" material="1" />
+        <key time="115" pos_x="4344.000000" pos_y="-1586.000000" pos_z="-11616.000000" dir_x="0.677165" dir_z="0.732283" material="1" />
+        <key time="115" pos_x="4432.000000" pos_y="-1584.000000" pos_z="-11520.000000" dir_x="0.677165" dir_z="0.732283" material="1" />
+        <key time="115" pos_x="4520.000000" pos_y="-1580.000000" pos_z="-11424.000000" dir_x="0.771654" dir_z="0.629921" material="1" />
+        <key time="115" pos_x="4608.000000" pos_y="-1578.000000" pos_z="-11344.000000" dir_x="0.787402" dir_z="0.614173" material="1" />
+        <key time="114" pos_x="4712.000000" pos_y="-1576.000000" pos_z="-11264.000000" dir_x="0.787402" dir_z="0.614173" material="1" />
+        <key time="115" pos_x="4816.000000" pos_y="-1576.000000" pos_z="-11184.000000" dir_x="0.787402" dir_z="0.614173" material="1" />
+        <key time="100" pos_x="4904.000000" pos_y="-1576.000000" pos_z="-11104.000000" dir_x="0.787402" dir_z="0.614173" material="1" />
+        <key time="115" pos_x="5000.000000" pos_y="-1580.000000" pos_z="-11024.000000" dir_x="0.787402" dir_z="0.614173" material="1" />
+        <key time="116" pos_x="5104.000000" pos_y="-1582.000000" pos_z="-10944.000000" dir_x="0.779528" dir_z="0.622047" material="1" />
+        <key time="101" pos_x="5192.000000" pos_y="-1586.000000" pos_z="-10880.000000" dir_x="0.732283" dir_z="0.685039" material="1" />
+        <key time="116" pos_x="5288.000000" pos_y="-1590.000000" pos_z="-10784.000000" dir_x="0.708661" dir_z="0.700787" material="1" />
+        <key time="100" pos_x="5368.000000" pos_y="-1592.000000" pos_z="-10720.000000" dir_x="0.708661" dir_z="0.700787" material="1" />
+        <key time="116" pos_x="5464.000000" pos_y="-1596.000000" pos_z="-10624.000000" dir_x="0.708661" dir_z="0.700787" material="1" />
+        <key time="116" pos_x="5552.000000" pos_y="-1598.000000" pos_z="-10528.000000" dir_x="0.708661" dir_z="0.700787" material="1" />
+        <key time="113" pos_x="5648.000000" pos_y="-1602.000000" pos_z="-10448.000000" dir_x="0.708661" dir_z="0.700787" material="1" />
+        <key time="114" pos_x="5736.000000" pos_y="-1606.000000" pos_z="-10352.000000" dir_x="0.700787" dir_z="0.716535" material="1" />
+        <key time="101" pos_x="5816.000000" pos_y="-1608.000000" pos_z="-10272.000000" dir_x="0.700787" dir_z="0.716535" material="1" />
+        <key time="114" pos_x="5904.000000" pos_y="-1612.000000" pos_z="-10176.000000" dir_x="0.692913" dir_z="0.724409" material="1" />
+        <key time="113" pos_x="5992.000000" pos_y="-1614.000000" pos_z="-10096.000000" dir_x="0.692913" dir_z="0.724409" material="1" />
+        <key time="114" pos_x="6080.000000" pos_y="-1614.000000" pos_z="-10000.000000" dir_x="0.685039" dir_z="0.724409" material="1" />
+        <key time="112" pos_x="6168.000000" pos_y="-1614.000000" pos_z="-9904.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="100" pos_x="6240.000000" pos_y="-1614.000000" pos_z="-9824.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="114" pos_x="6328.000000" pos_y="-1614.000000" pos_z="-9728.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="113" pos_x="6416.000000" pos_y="-1614.000000" pos_z="-9632.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="115" pos_x="6504.000000" pos_y="-1614.000000" pos_z="-9552.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="116" pos_x="6592.000000" pos_y="-1612.000000" pos_z="-9456.000000" dir_x="0.685039" dir_z="0.732283" material="1" />
+        <key time="115" pos_x="6680.000000" pos_y="-1602.000000" pos_z="-9360.000000" dir_x="0.653543" dir_z="0.755906" material="1" />
+        <key time="100" pos_x="6752.000000" pos_y="-1594.000000" pos_z="-9280.000000" dir_x="0.645669" dir_z="0.763780" material="1" />
+        <key time="116" pos_x="6840.000000" pos_y="-1584.000000" pos_z="-9184.000000" dir_x="0.645669" dir_z="0.763780" material="1" />
+        <key time="115" pos_x="6920.000000" pos_y="-1574.000000" pos_z="-9072.000000" dir_x="0.645669" dir_z="0.763780" material="1" />
+        <key time="115" pos_x="7008.000000" pos_y="-1564.000000" pos_z="-8976.000000" dir_x="0.645669" dir_z="0.763780" material="1" />
+        <key time="115" pos_x="7088.000000" pos_y="-1554.000000" pos_z="-8880.000000" dir_x="0.629921" dir_z="0.779528" material="1" />
+        <key time="114" pos_x="7168.000000" pos_y="-1552.000000" pos_z="-8784.000000" dir_x="0.622047" dir_z="0.787402" material="1" />
+        <key time="114" pos_x="7248.000000" pos_y="-1552.000000" pos_z="-8688.000000" dir_x="0.622047" dir_z="0.787402" material="1" />
+        <key time="115" pos_x="7328.000000" pos_y="-1552.000000" pos_z="-8592.000000" dir_x="0.614173" dir_z="0.787402" material="1" />
+        <key time="100" pos_x="7400.000000" pos_y="-1552.000000" pos_z="-8496.000000" dir_x="0.614173" dir_z="0.787402" material="1" />
+        <key time="100" pos_x="7464.000000" pos_y="-1552.000000" pos_z="-8416.000000" dir_x="0.614173" dir_z="0.787402" material="1" />
+        <key time="115" pos_x="7544.000000" pos_y="-1552.000000" pos_z="-8304.000000" dir_x="0.614173" dir_z="0.787402" material="1" />
+        <key time="115" pos_x="7624.000000" pos_y="-1562.000000" pos_z="-8208.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="7696.000000" pos_y="-1572.000000" pos_z="-8104.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="7776.000000" pos_y="-1582.000000" pos_z="-8000.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="7856.000000" pos_y="-1592.000000" pos_z="-7896.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="7928.000000" pos_y="-1600.000000" pos_z="-7792.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="100" pos_x="8000.000000" pos_y="-1610.000000" pos_z="-7704.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="114" pos_x="8072.000000" pos_y="-1616.000000" pos_z="-7600.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="8144.000000" pos_y="-1614.000000" pos_z="-7496.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="8224.000000" pos_y="-1610.000000" pos_z="-7392.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="8304.000000" pos_y="-1604.000000" pos_z="-7288.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="113" pos_x="8368.000000" pos_y="-1600.000000" pos_z="-7184.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="8448.000000" pos_y="-1596.000000" pos_z="-7080.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="8528.000000" pos_y="-1596.000000" pos_z="-6976.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="100" pos_x="8592.000000" pos_y="-1596.000000" pos_z="-6888.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="8672.000000" pos_y="-1596.000000" pos_z="-6784.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="115" pos_x="8752.000000" pos_y="-1596.000000" pos_z="-6680.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="116" pos_x="8816.000000" pos_y="-1596.000000" pos_z="-6576.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="100" pos_x="8928.000000" pos_y="-1596.000000" pos_z="-6440.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+        <key time="102" pos_x="8960.000000" pos_y="-1596.000000" pos_z="-6392.000000" dir_x="0.590551" dir_z="0.803150" material="1" />
+    </transform>
+    <aim keycount="2">
+        <key time="0" origin_x="0.000000" origin_y="0.000000" origin_z="0.000000" point_x="0.000000" point_y="0.000000" point_z="0.000000" />
+        <key time="6686" origin_x="0.000000" origin_y="0.000000" origin_z="0.000000" point_x="0.000000" point_y="0.000000" point_z="0.000000" />
+    </aim>
+</root>
